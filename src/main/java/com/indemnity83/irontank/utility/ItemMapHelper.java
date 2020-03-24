@@ -4,6 +4,7 @@ import java.util.HashMap;
 
 import com.indemnity83.irontank.init.ModBlocks;
 import com.indemnity83.irontank.init.ModItems;
+import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.item.Item;
 import net.minecraft.block.Block;
 
@@ -34,14 +35,12 @@ public class ItemMapHelper {
     public void handleMissingMaps(FMLMissingMappingsEvent event) {
         for (FMLMissingMappingsEvent.MissingMapping map : event.get()) {
             if (this.remapList.containsKey(map.name)) {
-                switch (map.type) {
-                    case BLOCK:
-                        LogHelper.info("Remapping missing mapping for block " + map.name);
-                        map.remap(Block.getBlockFromItem(remapList.get(map.name)));
-                        break;
-                    default:
-                        LogHelper.info("Remapping missing mapping for item " + map.name);
-                        map.remap(remapList.get(map.name));
+                if (map.type == GameRegistry.Type.BLOCK) {
+                    LogHelper.info("Remapping missing mapping for block " + map.name);
+                    map.remap(Block.getBlockFromItem(remapList.get(map.name)));
+                } else {
+                    LogHelper.info("Remapping missing mapping for item " + map.name);
+                    map.remap(remapList.get(map.name));
                 }
             }
         }

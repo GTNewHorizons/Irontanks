@@ -4,15 +4,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import net.minecraft.init.Blocks;
-import net.minecraft.init.Items;
-
-import com.indemnity83.irontank.block.BlockExtendedTank;
-import com.indemnity83.irontank.init.ModBlocks;
-import com.indemnity83.irontank.item.ItemTankChanger;
-
-import cpw.mods.fml.common.registry.GameRegistry;
-
 /**
  * Defines a type of tank.
  * 

@@ -2,14 +2,6 @@ package com.indemnity83.irontank.reference;
 
 import static com.indemnity83.irontank.reference.TankType.*;
 
-import java.util.List;
-
-import net.minecraft.item.ItemStack;
-import net.minecraftforge.common.config.Configuration;
-
-
-import cpw.mods.fml.common.registry.GameRegistry;
-
 /**
  * Defines a type of upgrade item.
  * 
@@ -62,7 +54,7 @@ public enum TankChangerType {
 		return from == this.source;
 	}
 
-	private TankChangerType(TankType source, TankType target, String itemName, String... recipe) {
+	TankChangerType(TankType source, TankType target, String itemName, String... recipe) {
 		this.source = source;
 		this.target = target;
 		this.name = itemName;

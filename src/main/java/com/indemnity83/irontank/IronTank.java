@@ -9,13 +9,12 @@ import com.indemnity83.irontank.tile.TileIronTank;
 import com.indemnity83.irontank.utility.ItemMapHelper;
 import com.indemnity83.irontank.utility.LogHelper;
 
-import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
+import cpw.mods.fml.common.event.FMLMissingMappingsEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
-import cpw.mods.fml.common.event.FMLMissingMappingsEvent;
 import cpw.mods.fml.common.registry.GameRegistry;
 
 @Mod(modid = Reference.MODID, name = Reference.MODNAME, version = Reference.VERSION, dependencies = Reference.DEPENDENCIES)
@@ -56,7 +55,6 @@ public class IronTank {
 	@Mod.EventHandler
 	public void onRemap(FMLMissingMappingsEvent event) {
 		LogHelper.info("Missing Mapping Event Fired!");
-
 		itemMapHelper.handleMissingMaps(event);
 	}
 

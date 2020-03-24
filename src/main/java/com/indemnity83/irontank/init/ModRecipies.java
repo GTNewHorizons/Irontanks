@@ -1,13 +1,5 @@
 package com.indemnity83.irontank.init;
 
-import com.indemnity83.irontank.block.BlockExtendedTank;
-import com.indemnity83.irontank.item.ItemTankChanger;
-import com.indemnity83.irontank.reference.TankChangerType;
-
-import net.minecraft.item.ItemStack;
-import net.minecraftforge.oredict.ShapedOreRecipe;
-import cpw.mods.fml.common.registry.GameRegistry;
-
 public class ModRecipies {
 
 	public static void init() {
