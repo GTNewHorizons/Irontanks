@@ -1,14 +1,14 @@
 # Item localizations
 item.irontank:copperIronUpgrade.name=Aprimoramento de Tanque de Cobre para Ferro
-item.irontank:copperSilverUpgrade.name=Aprimoramento de Tanque de Cobre para Prata
+item.irontank:copperSilverUpgrade.name=Aprimoramento de Tanque de Cobre para Aço
 item.irontank:diamondObsidianUpgrade.name=Aprimoramento de Tanque de Diamante para Obsidiana
 item.irontank:goldDiamondUpgrade.name=Aprimoramento de Tanque de Ouro para Diamante
 item.irontank:ironGoldUpgrade.name=Aprimoramento de Tanque de Ferro para Ouro
 item.irontank:diamondEmeraldUpgrade.name=Aprimoramento de Tanque de Esmeralda para Diamante
-item.irontank:silverGoldUpgrade.name=Aprimoramento de Tanque de Prata para Ouro
+item.irontank:silverGoldUpgrade.name=Aprimoramento de Tanque de Aço para Ouro
 item.irontank:glassCopperUpgrade.name=Aprimoramento de Tanque de Vidro para Cobre
 item.irontank:glassIronUpgrade.name=Aprimoramento de Tanque de Vidro para Ferro
-item.irontank:silverDiamondUpgrade.name=Aprimoramento de Tanque de Prata para Diamante
+item.irontank:silverDiamondUpgrade.name=Aprimoramento de Tanque de Aço para Diamante
 
 # Block localizations
 tile.irontank:ironTank.name=Tanque de Ferro
@@ -17,7 +17,7 @@ tile.irontank:goldTank.name=Tanque de Ouro
 tile.irontank:diamondTank.name=Tanque de Diamante
 tile.irontank:obsidianTank.name=Tanque de Obsidiana
 tile.irontank:copperTank.name=Tanque de Cobre
-tile.irontank:silverTank.name=Tanque de Prata
+tile.irontank:silverTank.name=Tanque de Aço
 
 # Misc localizations
 itemGroup.irontank=Iron Tanks

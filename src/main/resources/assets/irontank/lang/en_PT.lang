@@ -1,13 +1,13 @@
 # Item localizations
 item.irontank:copperIronUpgrade.name=Copper t' Iron Cask Upgrade
-item.irontank:copperSilverUpgrade.name=Copper t' Silver Cask Upgrade
+item.irontank:copperSilverUpgrade.name=Copper t' Steel Cask Upgrade
 item.irontank:diamondObsidianUpgrade.name=Diamond t' Obsidian Cask Upgrade
 item.irontank:goldDiamondUpgrade.name=Gold t' Diamond Cask Upgrade
 item.irontank:ironGoldUpgrade.name=Iron t' Gold Cask Upgrade
-item.irontank:silverGoldUpgrade.name=Silver t' Gold Cask Upgrade
+item.irontank:silverGoldUpgrade.name=Steel t' Gold Cask Upgrade
 item.irontank:glassCopperUpgrade.name=Glass t' Copper Cask Upgrade
 item.irontank:glassIronUpgrade.name=Glass t' Iron Cask Upgrade
-item.irontank:silverDiamondUpgrade.name=Silver t' Diamond Cask Upgrade
+item.irontank:silverDiamondUpgrade.name=Steel t' Diamond Cask Upgrade
 item.irontank:diamondEmeraldUpgrade.name=Diamond t' Emerald Cask Upgrade
 
 # Block localizations
@@ -16,7 +16,7 @@ tile.irontank:goldTank.name=Gold Cask
 tile.irontank:diamondTank.name=Diamond Cask
 tile.irontank:obsidianTank.name=Obsidian Cask
 tile.irontank:copperTank.name=Copper Cask
-tile.irontank:silverTank.name=Silver Cask
+tile.irontank:silverTank.name=Steel Cask
 tile.irontank:emeraldTank.name=Emerald Cask
 
 # Misc localizations
