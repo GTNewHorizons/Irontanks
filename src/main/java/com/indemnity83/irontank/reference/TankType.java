@@ -16,14 +16,14 @@ import java.util.List;
  *
  */
 public enum TankType{
-    IRON(32, "irontank", Arrays.asList("ingotIron", "ingotRefinedIron"), Arrays.asList("tgtg0gtgt", "gggt4tggg"), 25/3F),
-    GOLD(48, "goldtank", Collections.singletonList("ingotGold"), Arrays.asList("tgtg1gtgt", "gggt5tggg"), 25/3F),
-    DIAMOND(64, "diamondtank", Collections.singletonList("gemDiamond"), Arrays.asList("gggt2tggg", "gggg5gttt"), 25/3F),
-    COPPER(27, "coppertank", Collections.singletonList("ingotCopper"), Collections.singletonList("tgtg0gtgt"), 25/3F),
-    SILVER(43, "silvertank", Collections.singletonList("ingotSilver"), Arrays.asList("tgtg4gtgt", "gggt1tggg"), 25/3F),
-    OBSIDIAN(64, "obsidiantank", Collections.singletonList("obsidian"), Collections.singletonList("tgtg3gtgt"), 6000000.0F),
+    IRON(32, "ironTank", Arrays.asList("ingotIron", "ingotRefinedIron"), Arrays.asList("tgtg0gtgt", "gggt4tggg"), 25/3F),
+    GOLD(48, "goldTank", Collections.singletonList("ingotGold"), Arrays.asList("tgtg1gtgt", "gggt5tggg"), 25/3F),
+    DIAMOND(64, "diamondTank", Collections.singletonList("gemDiamond"), Arrays.asList("gggt2tggg", "gggg5gttt"), 25/3F),
+    COPPER(27, "copperTank", Collections.singletonList("ingotCopper"), Collections.singletonList("tgtg0gtgt"), 25/3F),
+    SILVER(43, "silverTank", Collections.singletonList("ingotSilver"), Arrays.asList("tgtg4gtgt", "gggt1tggg"), 25/3F),
+    OBSIDIAN(64, "obsidianTank", Collections.singletonList("obsidian"), Collections.singletonList("tgtg3gtgt"), 6000000.0F),
     GLASS(0, "", Collections.singletonList("blockGlass"), Collections.singletonList(""), 0f),
-	EMERALD(96, "emeraldtank", Collections.singletonList("gemEmerald"), Collections.singletonList("gggt3tggg"), 25/3F);
+	EMERALD(96, "emeraldTank", Collections.singletonList("gemEmerald"), Collections.singletonList("gggt3tggg"), 25/3F);
 
 	/**
 	 * fluid capacity of the tank type
