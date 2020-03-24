@@ -24,8 +24,6 @@ public class IronTank {
 	@SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.SERVER_PROXY_CLASS)
 	public static IProxy proxy;
 
-	public static ItemMapHelper itemMapHelper;
-
 	@Mod.EventHandler
 	public void preinit(FMLPreInitializationEvent event) {
 		ModItems.init();
@@ -36,7 +34,6 @@ public class IronTank {
 	@Mod.EventHandler
 	public void init(FMLInitializationEvent event) {
 		ModRecipies.init();
-		itemMapHelper = new ItemMapHelper();
 		LogHelper.info("Initialization Complete!");
 	}
 
@@ -53,7 +50,6 @@ public class IronTank {
 	@Mod.EventHandler
 	public void onRemap(FMLMissingMappingsEvent event) {
 		LogHelper.info("Missing Mapping Event Fired!");
-		itemMapHelper.handleMissingMaps(event);
 	}
 
 }
