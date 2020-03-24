@@ -2,7 +2,7 @@
 item.irontank:copperIronUpgrade.name=Kupfer zu Eisenbehälter Upgrade
 item.irontank:copperSilverUpgrade.name=Kupfer zu Silberbehälter Upgrade
 item.irontank:diamondObsidianUpgrade.name=Diamant zu Obsidiantbehälter Upgrade
-item.irontank:diamondEmeraldUpgrade.name=Diamond to Emerald Tank Upgrade
+item.irontank:diamondEmeraldUpgrade.name=Diamant zu Smaragdbehälter Upgrade
 item.irontank:goldDiamondUpgrade.name=Gold zu Diamantbehälter Upgrade
 item.irontank:ironGoldUpgrade.name=Eisen zu Goldbehälter Upgrade
 item.irontank:silverGoldUpgrade.name=Silber zu Goldbehälter Upgrade
@@ -13,7 +13,7 @@ item.irontank:silverDiamondUpgrade.name=Silber zu Diamantbehälter Upgrade
 # Block localizations
 tile.irontank:ironTank.name=Eisenbehälter
 tile.irontank:goldTank.name=Goldbehälter
-tile.irontank:emeraldTank.name=Emerald Tank
+tile.irontank:emeraldTank.name=Smaragdhälter
 tile.irontank:diamondTank.name=Diamantbehälter
 tile.irontank:obsidianTank.name=Obsidiantbehälter
 tile.irontank:copperTank.name=Kupferbehälter

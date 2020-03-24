@@ -30,9 +30,7 @@ public class BlockExtendedTank extends BlockTank {
 
 	public BlockExtendedTank(TankType type) {
 		super();
-
 		this.type = type;
-
 		this.setBlockName(type.name);
 		this.setCreativeTab(IronTankTabs.MainTab);
 		this.setResistance(type.resistance);

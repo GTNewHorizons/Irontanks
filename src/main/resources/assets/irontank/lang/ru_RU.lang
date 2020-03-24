@@ -3,7 +3,7 @@ item.irontank:copperIronUpgrade.name=Улучшение из медной в ж�
 item.irontank:copperSilverUpgrade.name=Улучшение из медной в серебряную цистерну
 item.irontank:diamondObsidianUpgrade.name=Улучшение из алмазной в обсидиановую цистерну
 item.irontank:goldDiamondUpgrade.name=Улучшение из золотой в алмазную цистерну
-item.irontank:diamondEmeraldUpgrade.name=Diamond to Emerald Tank Upgrade
+item.irontank:diamondEmeraldUpgrade.name=Улучшение из алмазной в изумрудную цистерну
 item.irontank:ironGoldUpgrade.name=Улучшение из железной в золотую цистерну
 item.irontank:silverGoldUpgrade.name=Улучшение из серебряной в золотую цистерну
 item.irontank:glassCopperUpgrade.name=Улучшение из стеклянной в медную цистерну
@@ -13,7 +13,7 @@ item.irontank:silverDiamondUpgrade.name=Улучшение из серебрян
 # Block localizations
 tile.irontank:ironTank.name=Железная цистерна
 tile.irontank:goldTank.name=Золотая цистерна
-tile.irontank:emeraldTank.name=Emerald Tank
+tile.irontank:emeraldTank.name=Изумрудная цистерна
 tile.irontank:diamondTank.name=Алмазная цистерна
 tile.irontank:obsidianTank.name=Обсидиановая цистерна
 tile.irontank:copperTank.name=Медная цистерна
