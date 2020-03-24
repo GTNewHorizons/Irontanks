@@ -11,7 +11,7 @@ import net.minecraft.block.Block;
 import cpw.mods.fml.common.event.FMLMissingMappingsEvent;
 
 public class ItemMapHelper {
-    private HashMap<String, Item> remapList = new HashMap();
+    private HashMap<String, Item> remapList = new HashMap<String, Item>();
 
     public ItemMapHelper() {
         remapList.put("irontank:ironGoldUpgrade", ModItems.ironGoldUpgrade);

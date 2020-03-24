@@ -51,7 +51,7 @@ public enum TankChangerType {
 	 * @return true if upgrade is allowed
 	 */
 	public boolean canUpgrade(TankType from) {
-		return from == this.source;
+		return from != this.source;
 	}
 
 	TankChangerType(TankType source, TankType target, String itemName, String... recipe) {

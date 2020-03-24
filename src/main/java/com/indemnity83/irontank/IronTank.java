@@ -8,7 +8,6 @@ import com.indemnity83.irontank.reference.Reference;
 import com.indemnity83.irontank.tile.TileIronTank;
 import com.indemnity83.irontank.utility.ItemMapHelper;
 import com.indemnity83.irontank.utility.LogHelper;
-
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
