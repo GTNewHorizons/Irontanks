@@ -2,16 +2,8 @@ package com.indemnity83.irontank.reference;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
-
-import net.minecraft.init.Blocks;
-import net.minecraft.init.Items;
-
-import com.indemnity83.irontank.block.BlockExtendedTank;
-import com.indemnity83.irontank.init.ModBlocks;
-import com.indemnity83.irontank.item.ItemTankChanger;
-
-import cpw.mods.fml.common.registry.GameRegistry;
 
 /**
  * Defines a type of tank.
@@ -24,14 +16,14 @@ import cpw.mods.fml.common.registry.GameRegistry;
  *
  */
 public enum TankType{
-    IRON(32, "irontank", Arrays.asList("ingotIron", "ingotRefinedIron"), Arrays.asList("tgtg0gtgt", "gggt4tggg"), 25/3F),
-    GOLD(48, "goldtank", Arrays.asList("ingotGold"), Arrays.asList("tgtg1gtgt", "gggt5tggg"), 25/3F),
-    DIAMOND(64, "diamondtank", Arrays.asList("gemDiamond"), Arrays.asList("gggt2tggg", "gggg5gttt"), 25/3F),
-    COPPER(27, "coppertank", Arrays.asList("ingotCopper"), Arrays.asList("tgtg0gtgt"), 25/3F),
-    SILVER(43, "silvertank", Arrays.asList("ingotSilver"), Arrays.asList("tgtg4gtgt", "gggt1tggg"), 25/3F),
-    OBSIDIAN(64, "obsidiantank", Arrays.asList("obsidian"), Arrays.asList("tgtg3gtgt"), 6000000.0F),
-    GLASS(0, "", Arrays.asList("blockGlass"), Arrays.asList(""), 0f),
-	EMERALD(96, "emeraldtank", Arrays.asList("gemEmerald"), Arrays.asList("gggt3tggg"), 25/3F);
+    IRON(32, "ironTank", Arrays.asList("ingotIron", "ingotRefinedIron"), Arrays.asList("tgtg0gtgt", "gggt4tggg"), 25F/3F),
+    GOLD(48, "goldTank", Collections.singletonList("ingotGold"), Arrays.asList("tgtg1gtgt", "gggt5tggg"), 25F/3F),
+    DIAMOND(64, "diamondTank", Collections.singletonList("gemDiamond"), Arrays.asList("gggt2tggg", "gggg5gttt"), 25F/3F),
+    COPPER(27, "copperTank", Collections.singletonList("ingotCopper"), Collections.singletonList("tgtg0gtgt"), 25F/3F),
+    SILVER(43, "silverTank", Collections.singletonList("ingotSilver"), Arrays.asList("tgtg4gtgt", "gggt1tggg"), 25F/3F),
+    OBSIDIAN(64, "obsidianTank", Collections.singletonList("obsidian"), Collections.singletonList("tgtg3gtgt"), 6000000.0F),
+    GLASS(0, "", Collections.singletonList("blockGlass"), Collections.singletonList(""), 0F),
+	EMERALD(96, "emeraldTank", Collections.singletonList("gemEmerald"), Collections.singletonList("gggt3tggg"), 25F/3F);
 
 	/**
 	 * fluid capacity of the tank type

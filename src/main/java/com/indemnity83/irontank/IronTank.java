@@ -6,16 +6,13 @@ import com.indemnity83.irontank.init.ModRecipies;
 import com.indemnity83.irontank.proxy.IProxy;
 import com.indemnity83.irontank.reference.Reference;
 import com.indemnity83.irontank.tile.TileIronTank;
-import com.indemnity83.irontank.utility.ItemMapHelper;
 import com.indemnity83.irontank.utility.LogHelper;
-
-import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
+import cpw.mods.fml.common.event.FMLMissingMappingsEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
-import cpw.mods.fml.common.event.FMLMissingMappingsEvent;
 import cpw.mods.fml.common.registry.GameRegistry;
 
 @Mod(modid = Reference.MODID, name = Reference.MODNAME, version = Reference.VERSION, dependencies = Reference.DEPENDENCIES)
@@ -27,8 +24,6 @@ public class IronTank {
 	@SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.SERVER_PROXY_CLASS)
 	public static IProxy proxy;
 
-	public static ItemMapHelper itemMapHelper;
-
 	@Mod.EventHandler
 	public void preinit(FMLPreInitializationEvent event) {
 		ModItems.init();
@@ -39,7 +34,6 @@ public class IronTank {
 	@Mod.EventHandler
 	public void init(FMLInitializationEvent event) {
 		ModRecipies.init();
-		itemMapHelper = new ItemMapHelper();
 		LogHelper.info("Initialization Complete!");
 	}
 
@@ -56,8 +50,6 @@ public class IronTank {
 	@Mod.EventHandler
 	public void onRemap(FMLMissingMappingsEvent event) {
 		LogHelper.info("Missing Mapping Event Fired!");
-
-		itemMapHelper.handleMissingMaps(event);
 	}
 
 }

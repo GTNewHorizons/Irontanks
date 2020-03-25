@@ -1,23 +1,18 @@
 package com.indemnity83.irontank.item;
 
-import net.minecraft.block.Block;
-import net.minecraft.entity.player.EntityPlayer;
-import net.minecraft.init.Blocks;
-import net.minecraft.item.ItemStack;
-import net.minecraft.tileentity.TileEntity;
-import net.minecraft.world.World;
-import net.minecraftforge.oredict.ShapedOreRecipe;
-
 import buildcraft.factory.TileTank;
-
-import com.indemnity83.irontank.creativetab.IronTankTabs;
 import com.indemnity83.irontank.reference.Reference;
 import com.indemnity83.irontank.reference.TankChangerType;
 import com.indemnity83.irontank.reference.TankType;
 import com.indemnity83.irontank.tile.TileIronTank;
 import com.indemnity83.irontank.utility.MaterialHelper;
-
 import cpw.mods.fml.common.registry.GameRegistry;
+import net.minecraft.block.Block;
+import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.item.ItemStack;
+import net.minecraft.tileentity.TileEntity;
+import net.minecraft.world.World;
+import net.minecraftforge.oredict.ShapedOreRecipe;
 
 public class ItemTankChanger extends ItemGeneric {
 
@@ -53,14 +48,14 @@ public class ItemTankChanger extends ItemGeneric {
 
 		TileEntity worldTile = world.getTileEntity(X, Y, Z);
 		TileTank curTankTile;
-		if (worldTile != null && worldTile instanceof TileIronTank) {
+		if (worldTile instanceof TileIronTank) {
 			curTankTile = (TileTank) worldTile;
-			if (!type.canUpgrade(((TileIronTank) curTankTile).type)) {
+			if (type.canUpgrade(((TileIronTank) curTankTile).type)) {
 				return false;
 			}
-		} else if (worldTile != null && worldTile instanceof TileTank) {
+		} else if (worldTile instanceof TileTank) {
 			curTankTile = (TileTank) worldTile;
-			if (!type.canUpgrade(TankType.GLASS)) {
+			if (type.canUpgrade(TankType.GLASS)) {
 				return false;
 			}
 		} else {

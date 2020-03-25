@@ -1,14 +1,9 @@
 package com.indemnity83.irontank.tile;
 
-import com.indemnity83.irontank.item.ItemTankChanger;
+import buildcraft.factory.TileTank;
 import com.indemnity83.irontank.reference.TankType;
-import com.indemnity83.irontank.utility.LogHelper;
-
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraftforge.fluids.FluidContainerRegistry;
-import net.minecraftforge.fluids.IFluidHandler;
-import buildcraft.core.lib.fluids.Tank;
-import buildcraft.factory.TileTank;
 
 public class TileIronTank extends TileTank {
 

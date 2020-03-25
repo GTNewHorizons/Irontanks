@@ -1,28 +1,23 @@
 package com.indemnity83.irontank.block;
 
-import net.minecraft.client.renderer.texture.IIconRegister;
-import net.minecraft.entity.Entity;
-import net.minecraft.init.Blocks;
-import net.minecraft.item.ItemStack;
-import net.minecraft.tileentity.TileEntity;
-import net.minecraft.util.IIcon;
-import net.minecraft.world.IBlockAccess;
-import net.minecraft.world.World;
-import net.minecraftforge.oredict.ShapedOreRecipe;
-
+import buildcraft.BuildCraftFactory;
+import buildcraft.factory.BlockTank;
 import com.indemnity83.irontank.creativetab.IronTankTabs;
 import com.indemnity83.irontank.init.ModBlocks;
 import com.indemnity83.irontank.reference.Reference;
 import com.indemnity83.irontank.reference.TankType;
 import com.indemnity83.irontank.tile.TileIronTank;
 import com.indemnity83.irontank.utility.MaterialHelper;
-
 import cpw.mods.fml.common.registry.GameRegistry;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
-
-import buildcraft.BuildCraftFactory;
-import buildcraft.factory.BlockTank;
+import net.minecraft.client.renderer.texture.IIconRegister;
+import net.minecraft.item.ItemStack;
+import net.minecraft.tileentity.TileEntity;
+import net.minecraft.util.IIcon;
+import net.minecraft.world.IBlockAccess;
+import net.minecraft.world.World;
+import net.minecraftforge.oredict.ShapedOreRecipe;
 
 public class BlockExtendedTank extends BlockTank {
 
@@ -35,17 +30,14 @@ public class BlockExtendedTank extends BlockTank {
 
 	public BlockExtendedTank(TankType type) {
 		super();
-
 		this.type = type;
-
 		this.setBlockName(type.name);
 		this.setCreativeTab(IronTankTabs.MainTab);
 		this.setResistance(type.resistance);
 	}
 
 	public TileEntity createNewTileEntity(World world, int metadata) {
-		TileIronTank tile = new TileIronTank(this.type);
-		return tile;
+		return new TileIronTank(this.type);
 	}
 
 	@SideOnly(Side.CLIENT)
@@ -53,8 +45,7 @@ public class BlockExtendedTank extends BlockTank {
 		super.registerBlockIcons(par1IconRegister);
 		textureStackedSide = par1IconRegister.registerIcon("irontank:" + type.name + "/side_stacked");
 	}
-	
-	@SuppressWarnings({"all"})
+
 	@Override
 	public IIcon getIconAbsolute(IBlockAccess iblockaccess, int i, int j, int k, int side, int metadata) {
 		if (side >= 2 && iblockaccess.getBlock(i, j - 1, k) instanceof BlockTank) {
