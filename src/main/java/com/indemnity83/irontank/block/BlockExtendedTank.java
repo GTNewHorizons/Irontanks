@@ -3,7 +3,6 @@ package com.indemnity83.irontank.block;
 import buildcraft.BuildCraftFactory;
 import buildcraft.factory.BlockTank;
 import com.indemnity83.irontank.creativetab.IronTankTabs;
-import com.indemnity83.irontank.init.ModBlocks;
 import com.indemnity83.irontank.reference.Reference;
 import com.indemnity83.irontank.reference.TankType;
 import com.indemnity83.irontank.tile.TileIronTank;
@@ -62,11 +61,38 @@ public class BlockExtendedTank extends BlockTank {
 					recipe.substring(6, 9) };
 			for (String material : type.materials) {
 				Object targetMaterial = MaterialHelper.translateOreName(material);
-				GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(this), recipeSplit, 't', targetMaterial, 'g',
-						"blockGlass", '0', new ItemStack(BuildCraftFactory.tankBlock, 1), '1',
-						new ItemStack(ModBlocks.ironTank, 1), '2', new ItemStack(ModBlocks.goldTank, 1), '3',
-						new ItemStack(ModBlocks.diamondTank, 1), '4', new ItemStack(ModBlocks.copperTank, 1), '5',
-						new ItemStack(ModBlocks.silverTank, 1), '6', new ItemStack(ModBlocks.obsidianTank, 1)));
+				GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(this), recipeSplit, 'm', targetMaterial, 'x',
+						"paneGlass", 'q', new ItemStack(BuildCraftFactory.tankBlock, 1),
+						'i',"plateDoubleIron",
+						'e',"plateIron",
+						'g',"plateDoubleGold",
+						'h',"plateGold",
+						's',"plateDoubleSteel",
+						'r',"plateSteel",
+						'd',"plateDiamond",
+						'c',"plateDoubleCopper",
+						'w',"plateCopper",
+						'o',"plateDenseObsidian",
+						'a',"plateDoubleAluminium",
+						'f',"plateAluminium",
+						'b',"plateDoubleStainlessSteel",
+						'l',"plateStainlessSteel",
+						't',"plateDoubleTitanium",
+						'k',"plateTitanium",
+						'u',"plateDoubleTungstenSteel",
+						'j',"plateGlass",
+						'1',"screwIron",
+						'2',"screwGold",
+						'3',"screwCopper",
+						'4',"screwSteel" ,
+						'5',"screwDiamond" ,
+						'6',"screwAluminium",
+						'7',"screwObsidian",
+						'8',"screwStainlessSteel",
+						'9',"screwTitanium",
+						'0',"screwTungstenSteel",
+						'r',"craftingToolHardHammer",
+						'v',"craftingToolScrewdriver"));
 			}
 		}
 	}

@@ -16,14 +16,17 @@ import java.util.List;
  *
  */
 public enum TankType{
-    IRON(32, "ironTank", Arrays.asList("ingotIron", "ingotRefinedIron"), Arrays.asList("tgtg0gtgt", "gggt4tggg"), 3.0F, 5.0F),
-    GOLD(48, "goldTank", Collections.singletonList("ingotGold"), Arrays.asList("tgtg1gtgt", "gggt5tggg"), 4.0F, 7.0F),
-    DIAMOND(64, "diamondTank", Collections.singletonList("gemDiamond"), Arrays.asList("gggt2tggg", "gggg5gttt"), 6.0F, 8.0F),
-    COPPER(27, "copperTank", Collections.singletonList("ingotCopper"), Collections.singletonList("tgtg0gtgt"), 2.0F, 4.0F),
-    SILVER(43, "silverTank", Collections.singletonList("ingotSilver"), Arrays.asList("tgtg4gtgt", "gggt1tggg"), 5.0F, 6.0F),
-    OBSIDIAN(64, "obsidianTank", Collections.singletonList("obsidian"), Collections.singletonList("tgtg3gtgt"), 6000000.0F, 50.0F),
+    IRON(32, "ironTank", Arrays.asList("plateIron"), Arrays.asList("1i1xqxriv"), 3.0F, 5.0F),
+    GOLD(48, "goldTank", Collections.singletonList("plateGold"), Arrays.asList("2g2xqxrgv"), 4.0F, 7.0F),
+    DIAMOND(64, "diamondTank", Collections.singletonList("plateDiamond"), Arrays.asList("5d5xqxrdv"), 6.0F, 8.0F),
+    COPPER(27, "copperTank", Collections.singletonList("plateCopper"), Collections.singletonList("3c3xqxrcv"), 2.0F, 4.0F),
+    SILVER(43, "silverTank", Collections.singletonList("plateSteel"), Arrays.asList("4s4xqxrsv"), 5.0F, 6.0F),
+    OBSIDIAN(64, "obsidianTank", Collections.singletonList("plateObsidian"), Collections.singletonList("5o5xqxrov"), 6000000.0F, 50.0F),
     GLASS(0, "", Collections.singletonList("blockGlass"), Collections.singletonList(""), 0.0F, 0.0F),
-	EMERALD(96, "emeraldTank", Collections.singletonList("gemEmerald"), Collections.singletonList("gggt3tggg"), 6.0F, 8.0F);
+	EMERALD(96, "emeraldTank", Collections.singletonList("plateEmerald"), Collections.singletonList("6a6xqxrav"), 6.0F, 8.0F),
+	STAINLESSSTEEL(128, "stainlesssteelTank", Collections.singletonList("plateStainlessSteel"), Collections.singletonList("8b8xqxrbv"), 7.0F, 10.0F),
+	TITANIUM(256, "titaniumTank", Collections.singletonList("plateTitanium"), Collections.singletonList("9t9xqxrtv"), 8.0F, 12.0F),
+	TUNGSTENSTEEL(512, "tungstensteelTank", Collections.singletonList("plateTungstenSteel"), Collections.singletonList("0u0xqxruv"), 10.0F, 15.0F);
 
 	/**
 	 * fluid capacity of the tank type
