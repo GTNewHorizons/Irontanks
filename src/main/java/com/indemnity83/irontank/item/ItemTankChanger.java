@@ -33,8 +33,39 @@ public class ItemTankChanger extends ItemGeneric {
 			for (String targetMat : type.target.materials) {
 				Object oSourceMat = MaterialHelper.translateOreName(sourceMat);
 				Object oTargetMat = MaterialHelper.translateOreName(targetMat);
-				GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(this), type.recipe, 's', oSourceMat, 't',
-						oTargetMat, 'g', "blockGlass"));
+				GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(this), type.recipe, 'x', oSourceMat, 'y',
+						oTargetMat, 'z', "paneGlass",
+						'i',"plateDoubleIron",
+						'e',"plateIron",
+						'g',"plateDoubleGold",
+						'h',"plateGold",
+						's',"plateDoubleSteel",
+						'p',"plateSteel",
+						'd',"plateDiamond",
+						'c',"plateDoubleCopper",
+						'q',"plateCopper",
+						'o',"plateDenseObsidian",
+						'a',"plateDoubleAluminium",
+						'f',"plateAluminium",
+						'b',"plateDoubleStainlessSteel",
+						'l',"plateStainlessSteel",
+						't',"plateDoubleTitanium",
+						'k',"plateTitanium",
+						'u',"plateDoubleTungstenSteel",
+						'j',"plateGlass",
+						'1',"screwIron",
+						'2',"screwGold",
+						'3',"screwCopper",
+						'4',"screwSteel" ,
+						'5',"screwDiamond" ,
+						'6',"screwAluminium",
+						'7',"screwObsidian",
+						'8',"screwStainlessSteel",
+						'9',"screwTitanium",
+						'0',"screwTungstenSteel",
+						'r',"craftingToolHardHammer",
+						'v',"craftingToolScrewdriver"
+						));
 			}
 		}
 	}
