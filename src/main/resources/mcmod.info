@@ -1,10 +1,10 @@
 [
 {
-  "modid": "IronTank",
-  "name": "Iron Tank",
+  "modid": "${modId}",
+  "name": "${modName}",
   "description": "New tanks with larger sizes, with in-place upgrade items.",
-  "version": "${version}",
-  "mcversion": "${mcversion}",
+  "version": "${modVersion}",
+  "mcversion": "${minecraftVersion}",
   "url": "https://github.com/indemnity83/irontank",
   "updateUrl": "",
   "authorList": ["Indemnity83"],
