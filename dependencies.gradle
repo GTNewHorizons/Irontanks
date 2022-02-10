@@ -1,5 +1,5 @@
 // Add your dependencies here
 
 dependencies {
-    compile("com.mod-buildcraft:buildcraft:7.1.23:dev")
+    compile('com.github.GTNewHorizons:BuildCraft:7.1.27:dev')
 }
