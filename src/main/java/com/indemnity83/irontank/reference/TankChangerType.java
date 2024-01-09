@@ -1,6 +1,16 @@
 package com.indemnity83.irontank.reference;
 
-import static com.indemnity83.irontank.reference.TankType.*;
+import static com.indemnity83.irontank.reference.TankType.COPPER;
+import static com.indemnity83.irontank.reference.TankType.DIAMOND;
+import static com.indemnity83.irontank.reference.TankType.EMERALD;
+import static com.indemnity83.irontank.reference.TankType.GLASS;
+import static com.indemnity83.irontank.reference.TankType.GOLD;
+import static com.indemnity83.irontank.reference.TankType.IRON;
+import static com.indemnity83.irontank.reference.TankType.OBSIDIAN;
+import static com.indemnity83.irontank.reference.TankType.SILVER;
+import static com.indemnity83.irontank.reference.TankType.STAINLESSSTEEL;
+import static com.indemnity83.irontank.reference.TankType.TITANIUM;
+import static com.indemnity83.irontank.reference.TankType.TUNGSTENSTEEL;
 
 /**
  * Defines a type of upgrade item.

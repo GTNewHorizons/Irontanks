@@ -3,6 +3,7 @@ package com.indemnity83.irontank.init;
 import com.indemnity83.irontank.item.ItemGeneric;
 import com.indemnity83.irontank.item.ItemTankChanger;
 import com.indemnity83.irontank.reference.TankChangerType;
+
 import cpw.mods.fml.common.registry.GameRegistry;
 
 public class ModItems {

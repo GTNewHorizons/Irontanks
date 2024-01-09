@@ -3,6 +3,7 @@ package com.indemnity83.irontank.utility;
 import org.apache.logging.log4j.Level;
 
 import com.indemnity83.irontank.reference.Reference;
+
 import cpw.mods.fml.common.FMLLog;
 
 public class LogHelper {
