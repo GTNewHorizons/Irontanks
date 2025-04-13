@@ -120,12 +120,12 @@ public class ItemTankChanger extends ItemGeneric {
         TileTank curTankTile;
         if (worldTile instanceof TileIronTank) {
             curTankTile = (TileTank) worldTile;
-            if (type.canUpgrade(((TileIronTank) curTankTile).type)) {
+            if (!type.canUpgrade(((TileIronTank) curTankTile).type)) {
                 return false;
             }
         } else if (worldTile instanceof TileTank) {
             curTankTile = (TileTank) worldTile;
-            if (type.canUpgrade(TankType.GLASS)) {
+            if (!type.canUpgrade(TankType.GLASS)) {
                 return false;
             }
         } else {
