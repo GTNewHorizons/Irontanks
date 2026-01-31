@@ -9,15 +9,31 @@ item.irontank:silverGoldUpgrade.name=Stahl zu Goldbehälter Upgrade
 item.irontank:glassCopperUpgrade.name=Glas zu Kupferbehälter Upgrade
 item.irontank:glassIronUpgrade.name=Glas zu Eisenbehälter Upgrade
 item.irontank:silverDiamondUpgrade.name=Stahl zu Diamantbehälter Upgrade
-
+item.irontank:emeraldStainlesssteelUpgrade.name=Aluminium to Stainless Steel Tank Upgrade
+item.irontank:stainlesssteelTitaniumUpgrade.name=Stainless Steel to Titanium Tank Upgrade
+item.irontank:titaniumTungstensteelUpgrade.name=Titanium to Tungstensteel Tank Upgrade
 # Block localizations
 tile.irontank:ironTank.name=Eisenbehälter
 tile.irontank:goldTank.name=Goldbehälter
-tile.irontank:emeraldTank.name=Smaragdhälter
 tile.irontank:diamondTank.name=Diamantbehälter
+tile.irontank:emeraldTank.name=Smaragdhälter
 tile.irontank:obsidianTank.name=Obsidiantbehälter
 tile.irontank:copperTank.name=Kupferbehälter
 tile.irontank:silverTank.name=Stahlbehälter
+tile.irontank:stainlesssteelTank.name=Stainless Steel Tank
+tile.irontank:titaniumTank.name=Titanium Tank
+tile.irontank:tungstensteelTank.name=Tungstensteel Tank
+# Iron Tank Tooltips
+tile.ironTank.tooltip=Stores up to 32 Buckets of one Liquid\n§4Not portable, use a dolly
+tile.goldTank.tooltip=Stores up to 48 Buckets of one Liquid\n§4Not portable, use a dolly
+tile.diamondTank.tooltip=Stores up to 64 Buckets of one Liquid\n§4Not portable, use a dolly
+tile.obsidianTank.tooltip=Stores up to 64 Buckets of one Liquid\n§4Not portable, use a dolly\n(Blast Proof)
+tile.copperTank.tooltip=Stores up to 27 Buckets of one Liquid\n§4Not portable, use a dolly
+tile.silverTank.tooltip=Stores up to 43 Buckets of one Liquid\n§4Not portable, use a dolly
+tile.emeraldTank.tooltip=Stores up to 96 Buckets of one Liquid\n§4Not portable, use a dolly
+tile.stainlesssteelTank.tooltip=Stores up to 128 Buckets of one Liquid\n§4Not portable, use a dolly
+tile.titaniumTank.tooltip=Stores up to 256 Buckets of one Liquid\n§4Not portable, use a dolly
+tile.tungstensteelTank.tooltip=Stores up to 512 Buckets of one Liquid\n§4Not portable, use a dolly
 
 # Misc localizations
 itemGroup.irontank=Iron Tanks

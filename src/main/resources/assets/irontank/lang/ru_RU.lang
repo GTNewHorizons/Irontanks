@@ -1,6 +1,6 @@
 # Item localizations
 item.irontank:copperIronUpgrade.name=Улучшение из медной в железную цистерну
-item.irontank:copperSilverUpgrade.name=Улучшение из медной в стали цистерну
+item.irontank:copperSilverUpgrade.name=Улучшение из медной в стальную цистерну
 item.irontank:diamondObsidianUpgrade.name=Улучшение из алмазной в обсидиановую цистерну
 item.irontank:diamondEmeraldUpgrade.name=Улучшение из алмазной в алюминиевую цистерну
 item.irontank:goldDiamondUpgrade.name=Улучшение из золотой в алмазную цистерну
@@ -9,7 +9,7 @@ item.irontank:silverGoldUpgrade.name=Улучшение из стальной в
 item.irontank:glassCopperUpgrade.name=Улучшение из стеклянной в медную цистерну
 item.irontank:glassIronUpgrade.name=Улучшение из стеклянной в железную цистерну
 item.irontank:silverDiamondUpgrade.name=Улучшение из стальной в алмазную цистерну
-item.irontank:emeraldStainlesssteelUpgrade.name=Улучшение из изумрудной в цистерну из нержавеющий стали
+item.irontank:emeraldStainlesssteelUpgrade.name=Улучшение из алюминиевой в цистерну из нержавеющий стали
 item.irontank:stainlesssteelTitaniumUpgrade.name=Улучшение из нержавеющей стали в титановую цистерну
 item.irontank:titaniumTungstensteelUpgrade.name=Улучшение из титановой в цистерну из вольфрамовой стали
 # Block localizations
@@ -23,6 +23,17 @@ tile.irontank:silverTank.name=Стальная цистерна
 tile.irontank:stainlesssteelTank.name=Цистерна из нержавеющей стали
 tile.irontank:titaniumTank.name=Титановая цистерна
 tile.irontank:tungstensteelTank.name=Цистерна из вольфрамовой стали
+# Iron Tank Tooltips
+tile.ironTank.tooltip=Stores up to 32 Buckets of one Liquid\n§4Not portable, use a dolly
+tile.goldTank.tooltip=Stores up to 48 Buckets of one Liquid\n§4Not portable, use a dolly
+tile.diamondTank.tooltip=Stores up to 64 Buckets of one Liquid\n§4Not portable, use a dolly
+tile.obsidianTank.tooltip=Stores up to 64 Buckets of one Liquid\n§4Not portable, use a dolly\n(Blast Proof)
+tile.copperTank.tooltip=Stores up to 27 Buckets of one Liquid\n§4Not portable, use a dolly
+tile.silverTank.tooltip=Stores up to 43 Buckets of one Liquid\n§4Not portable, use a dolly
+tile.emeraldTank.tooltip=Stores up to 96 Buckets of one Liquid\n§4Not portable, use a dolly
+tile.stainlesssteelTank.tooltip=Stores up to 128 Buckets of one Liquid\n§4Not portable, use a dolly
+tile.titaniumTank.tooltip=Stores up to 256 Buckets of one Liquid\n§4Not portable, use a dolly
+tile.tungstensteelTank.tooltip=Stores up to 512 Buckets of one Liquid\n§4Not portable, use a dolly
 
 # Misc localizations
 itemGroup.irontank=Iron Tanks
