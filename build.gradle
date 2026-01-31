@@ -3,11 +3,3 @@
 plugins {
     id 'com.gtnewhorizons.gtnhconvention'
 }
-
-repositories {
-    flatDir { dirs 'libs' }
-}
-
-dependencies {
-    implementation name: 'lzma-0.0.1'
-}
