@@ -148,5 +148,4 @@ public class BlockExtendedTank extends BlockTank {
     protected String getUnwrappedUnlocalizedName(String unlocalizedName) {
         return unlocalizedName.substring(unlocalizedName.indexOf(".") + 1);
     }
-
 }
