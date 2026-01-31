@@ -18,8 +18,7 @@ public class ItemBlockExtendedTank extends ItemBlock {
     }
 
     @Override
-    @SuppressWarnings({ "rawtypes", "unchecked" })
-    public void addInformation(ItemStack stack, EntityPlayer player, List list, boolean advanced) {
+    public void addInformation(ItemStack stack, EntityPlayer player, List<String> list, boolean advanced) {
         BlockExtendedTank block = (BlockExtendedTank) this.field_150939_a;
         TankType type = block.type;
         String key = "tile." + type.name + ".tooltip";
