@@ -1,5 +1,5 @@
 // Add your dependencies here
 
 dependencies {
-    api('com.github.GTNewHorizons:BuildCraft:7.1.42:dev')
+    api('com.github.GTNewHorizons:BuildCraft:7.1.48:dev')
 }
