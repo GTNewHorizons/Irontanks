@@ -1,17 +1,18 @@
 # Item localizations
-item.irontank:copperIronUpgrade.name=Улучшение из медной в железную цистерну
-item.irontank:copperSilverUpgrade.name=Улучшение из медной в стальную цистерну
-item.irontank:diamondObsidianUpgrade.name=Улучшение из алмазной в обсидиановую цистерну
-item.irontank:diamondEmeraldUpgrade.name=Улучшение из алмазной в алюминиевую цистерну
-item.irontank:goldDiamondUpgrade.name=Улучшение из золотой в алмазную цистерну
-item.irontank:ironGoldUpgrade.name=Улучшение из железной в золотую цистерну
-item.irontank:silverGoldUpgrade.name=Улучшение из стальной в золотую цистерну
-item.irontank:glassCopperUpgrade.name=Улучшение из стеклянной в медную цистерну
-item.irontank:glassIronUpgrade.name=Улучшение из стеклянной в железную цистерну
-item.irontank:silverDiamondUpgrade.name=Улучшение из стальной в алмазную цистерну
-item.irontank:emeraldStainlesssteelUpgrade.name=Улучшение из алюминиевой в цистерну из нержавеющий стали
-item.irontank:stainlesssteelTitaniumUpgrade.name=Улучшение из нержавеющей стали в титановую цистерну
-item.irontank:titaniumTungstensteelUpgrade.name=Улучшение из титановой в цистерну из вольфрамовой стали
+item.irontank:copperIronUpgrade.name=Улучшение медной цистерны до железной
+item.irontank:copperSilverUpgrade.name=Улучшение медной цистерны до стальной
+item.irontank:diamondObsidianUpgrade.name=Улучшение алмазной цистерны до обсидиановой
+item.irontank:diamondEmeraldUpgrade.name=Улучшение алмазной цистерны до алюминиевой
+item.irontank:goldDiamondUpgrade.name=Улучшение золотой цистерны до алмазной
+item.irontank:ironGoldUpgrade.name=Улучшение железной цистерны до золотой
+item.irontank:silverGoldUpgrade.name=Улучшение стальной цистерны до золотой
+item.irontank:glassCopperUpgrade.name=Улучшение стеклянной цистерны до медной
+item.irontank:glassIronUpgrade.name=Улучшение стеклянной цистерны до железной
+item.irontank:silverDiamondUpgrade.name=Улучшение стальной цистерны до алмазной
+item.irontank:emeraldStainlesssteelUpgrade.name=Улучшение алюминиевой цистерны до цистерны из нержавеющей стали
+item.irontank:stainlesssteelTitaniumUpgrade.name=Улучшение цистерны из нержавеющей стали до титановой
+item.irontank:titaniumTungstensteelUpgrade.name=Улучшение титановой цистерны до цистерны из вольфрамовой стали
+
 # Block localizations
 tile.irontank:ironTank.name=Железная цистерна
 tile.irontank:goldTank.name=Золотая цистерна
@@ -23,17 +24,18 @@ tile.irontank:silverTank.name=Стальная цистерна
 tile.irontank:stainlesssteelTank.name=Цистерна из нержавеющей стали
 tile.irontank:titaniumTank.name=Титановая цистерна
 tile.irontank:tungstensteelTank.name=Цистерна из вольфрамовой стали
+
 # Iron Tank Tooltips
-tile.ironTank.tooltip=Вмещает до 32 вёдер одной жидкости §4Не переносится, используйте тележку
-tile.goldTank.tooltip=Вмещает до 48 вёдер одной жидкости §4Не переносится, используйте тележку
-tile.diamondTank.tooltip=Вмещает до 64 вёдер одной жидкости §4Не переносится, используйте тележку
-tile.obsidianTank.tooltip=Вмещает до 64 вёдер одной жидкости §4Не переносится, используйте тележку\n(взрывоустойчивый)
-tile.copperTank.tooltip=Вмещает до 27 вёдер одной жидкости §4Не переносится, используйте тележку
-tile.silverTank.tooltip=Вмещает до 43 вёдер одной жидкости §4Не переносится, используйте тележку
-tile.emeraldTank.tooltip=Вмещает до 96 вёдер одной жидкости §4Не переносится, используйте тележку
-tile.stainlesssteelTank.tooltip=Вмещает до 128 вёдер одной жидкости §4Не переносится, используйте тележку
-tile.titaniumTank.tooltip=Вмещает до 256 вёдер одной жидкости §4Не переносится, используйте тележку
-tile.tungstensteelTank.tooltip=Вмещает до 512 вёдер одной жидкости §4Не переносится, используйте тележку
+tile.ironTank.tooltip=Вмещает до 32 вёдер одной жидкости\n§4Не портативная, используйте тележку
+tile.goldTank.tooltip=Вмещает до 48 вёдер одной жидкости\n§4Не портативная, используйте тележку
+tile.diamondTank.tooltip=Вмещает до 64 вёдер одной жидкости\n§4Не портативная, используйте тележку
+tile.obsidianTank.tooltip=Вмещает до 64 вёдер одной жидкости\n§4Не портативная, используйте тележку\n(Взрывоустойчивая)
+tile.copperTank.tooltip=Вмещает до 27 вёдер одной жидкости\n§4Не портативная, используйте тележку
+tile.silverTank.tooltip=Вмещает до 43 вёдер одной жидкости\n§4Не портативная, используйте тележку
+tile.emeraldTank.tooltip=Вмещает до 96 вёдер одной жидкости\n§4Не портативная, используйте тележку
+tile.stainlesssteelTank.tooltip=Вмещает до 128 вёдер одной жидкости\n§4Не портативная, используйте тележку
+tile.titaniumTank.tooltip=Вмещает до 256 вёдер одной жидкости\n§4Не портативная, используйте тележку
+tile.tungstensteelTank.tooltip=Вмещает до 512 вёдер одной жидкости\n§4Не портативная, используйте тележку
 
 # Misc localizations
 itemGroup.irontank=Iron Tanks
