@@ -7,6 +7,11 @@
 <a href="https://github.com/Indemnity83/irontank/blob/master/LICENSE.txt"><img src="https://img.shields.io/github/license/indemnity83/irontank.svg" alt="License"></a>
 </p>
 
+> **Upstream is active again.** This repository is a fork of [Indemnity83/irontanks](https://github.com/Indemnity83/irontanks),
+> which is once more under active maintenance by its original author. The fork's changes have been folded back upstream
+> (including the 1.7.10 line). If pointing back at upstream releases is ever useful, the door's open — see this PR's
+> description for details. Either way, thanks to the GTNH team for keeping Iron Tanks alive. 🙏
+
 ## About Iron Tanks
 
 Iron Tanks is a [Buildcraft](https://minecraft.curseforge.com/projects/buildcraft) add-on for Minecraft which adds tiered capacity and special purpose tanks to the game. Iron Tanks follows strict Minecraft physics, meaning a one block space can hold 8x more stuff as long as you build the container out of diamond, and as long as you surround the glass container with obsidian blocks, it will be explosion proof. These tanks and more can add hours of fun and excitement to the game:
